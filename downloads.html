@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download Links</title>
+    <style>
+        /* Navigation bar styles */
+        nav {
+            background-color: #333; /* Dark background */
+            overflow: hidden; /* Clear floats */
+        }
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+        nav li {
+            float: left; /* Align items horizontally */
+        }
+        nav a {
+            display: block; /* Make links fill the list item */
+            color: white; /* Text color */
+            text-align: center; /* Center text */
+            padding: 14px 16px; /* Padding around links */
+            text-decoration: none; /* Remove underline */
+        }
+        nav a:hover {
+            background-color: #111; /* Change background on hover */
+        }
+    </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
     <h1>Download Links</h1>
-    <p><a href="https://link-to-latest-discord-version" download>Download Discord Latest Version</a></p>
-    <p><a href="https://link-to-latest-thorium-version" download>Download Thorium Latest Version</a></p>
+    <p><a href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64" download>Download Discord Latest Version</a></p>
+    <p><a href="https://laptop-updates.brave.com/download/BRV002?bitness=64" download>Download Brave Latest Version</a></p>
 </body>
 </html>
